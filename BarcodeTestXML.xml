@@ -12,6 +12,32 @@
     
 	<LineItems>
 		<LineItem>
+			<TestNo>0</TestNo>
+			<Description>Numeric Only</Description>
+			<UPCLong>7045</UPCLong>
+			<UPC128>7045</UPC128>
+			<UPC39>7045</UPC39>
+			<UPCQR>7045</UPCQR>
+			<UPCITF>7045</UPCITF>
+			<UPCA>7045</UPCA>
+			<UPCE>7045</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Yes</Result>
+				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>2</TNo>
+					<Result>No</Result>
+				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>3</TNo>
+					<Result>Yes</Result>
+				</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
 			<TestNo>1</TestNo>
 			<Description>Numeric Only</Description>
 			<UPCLong>70450</UPCLong>
