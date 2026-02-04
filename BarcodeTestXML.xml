@@ -16,10 +16,21 @@
 			<Description>Numeric Only</Description>>
 			<UPCLong>704508405991</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>OCAL ST1/290-G PVC CTD LT COND CONN</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>90D 1/2IN DGRY</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Your # 2612083</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Pn: 38722</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Test>Barcode is visible</Test>
+					<Result>Yes</Result>
+				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>2</TNo>
+					<Test>Errors</Test>
+					<Result>No</Result>
+				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>3</TNo>
+					<Test>Value matches source tag</Test>
+					<Result>Yes</Result>
+				</ExtendedDescriptionLine>
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -28,10 +39,7 @@
 			<Description>Alpha Numeric</Description>>
 			<UPCLong>ABCDE12345</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -40,10 +48,7 @@
 			<Description>Alpha Numeric lower case</Description>>
 			<UPCLong>abcde12345</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -52,10 +57,7 @@
 			<Description>Special Charactera #1</Description>>
 			<UPCLong>ABCD-1234</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -64,10 +66,7 @@
 			<Description>Special Characters #2</Description>>
 			<UPCLong>45.67</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -76,10 +75,7 @@
 			<Description>Special Characters #3</Description>>
 			<UPCLong>Under_Score</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -88,10 +84,7 @@
 			<Description>Special Characters #4</Description>>
 			<UPCLong>25 KG</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -100,10 +93,7 @@
 			<Description>Symbols</Description>>
 			<UPCLong>INV#@$%</UPCLong>
 			<ExtendedDescriptionLines>
-			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
-			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
