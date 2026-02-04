@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders>
+  <Order>
+	<OrderId>S007686665</OrderId>                
+    <OrderUniqueId>S007686665-001</OrderUniqueId>
+    <CustomerNumber>675</CustomerNumber>         
+    <CustomerPONumber>1079191</CustomerPONumber> 
+    <InvoiceNumber>1</InvoiceNumber>             
+    <ARId>S007686665.001</ARId>                  
+	<ED_LOGO>http://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg</ED_LOGO>
+	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
+    
+	<LineItems>
+		<LineItem>
+			<TestNo>1</TestNo>
+			<Description>Numeric Only</Description>>
+			<UPCLong>704508405991</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>OCAL ST1/290-G PVC CTD LT COND CONN</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>90D 1/2IN DGRY</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Your # 2612083</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Pn: 38722</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>2</TestNo>
+			<Description>Alpha Numeric</Description>>
+			<UPCLong>ABCDE12345</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>3</TestNo>
+			<Description>Alpha Numeric lower case</Description>>
+			<UPCLong>abcde12345</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>4</TestNo>
+			<Description>Special Charactera #1</Description>>
+			<UPCLong>ABCD-1234</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>5</TestNo>
+			<Description>Special Characters #2</Description>>
+			<UPCLong>45.67</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>6</TestNo>
+			<Description>Special Characters #3</Description>>
+			<UPCLong>Under_Score</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>7</TestNo>
+			<Description>Special Characters #4</Description>>
+			<UPCLong>25 KG</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>8</TestNo>
+			<Description>Symbols</Description>>
+			<UPCLong>INV#@$%</UPCLong>
+			<ExtendedDescriptionLines>
+			  <ExtendedDescriptionLine>Ext 1</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 2</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 3</ExtendedDescriptionLine>
+			  <ExtendedDescriptionLine>Ext 4</ExtendedDescriptionLine>
+			</ExtendedDescriptionLines>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>9</TestNo>
+			<Description>Character length 1</Description>>
+			<UPCLong>1</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>10</TestNo>
+			<Description>Character length 2</Description>>
+			<UPCLong>12</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>11</TestNo>
+			<Description>Character length 5</Description>>
+			<UPCLong>12345</UPCLong>
+		</LineItem>
+		<LineItem>
+			<TestNo>12</TestNo>
+			<Description>Character length 10</Description>>
+			<UPCLong>1234567890</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>13</TestNo>
+			<Description>Character length 14</Description>>
+			<UPCLong>12345678901234</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>14</TestNo>
+			<Description>Character length 20</Description>>
+			<UPCLong>12345678901234567890</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>15</TestNo>
+			<Description>Character length 30</Description>>
+			<UPCLong>123456789012345678901234567890</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>16</TestNo>
+			<Description>Character length 40</Description>>
+			<UPCLong>1234567890123456789012345678901234567890</UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>17</TestNo>
+			<Description>Empty Tag</Description>>
+			<UPCLong></UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>18</TestNo>
+			<Description>Empty Tag, But Whitespaces 1</Description>>
+			<UPCLong> </UPCLong>
+		</LineItem>
+		
+		<LineItem>
+			<TestNo>19</TestNo>
+			<Description>Empty Tag, But Whitespaces 1</Description>>
+			<UPCLong>    </UPCLong>
+		</LineItem>
+		
+	</LineItems>
+  </Order>
+</Orders>
