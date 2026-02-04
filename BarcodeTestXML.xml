@@ -10,8 +10,37 @@
 	<ED_LOGO>http://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg</ED_LOGO>
 	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
 	<ShortURL>http://www.epicor.com</ShortURL>
-	<VeryLongURL>https://picsum.photos/1200/800.jpg?verylongparameter=thisisaveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongstringusedfortestingpurposeswithoutanyampersandsatalljustonecontinuousqueryvalue
-</VeryLongURL>
+	<VeryLongURL>https://picsum.photos/1200/800.jpg?verylongparameter=thisisaveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongstringusedfortestingpurposeswithoutanyampersandsatalljustonecontinuousqueryvalue</VeryLongURL>
+
+	<TLDR>
+		<Test>
+			<Type>Character Support</Type>
+			<Findings>
+				<Note>Code128: Passed for all numeric, alphanumeric, lowercase, and special character tests.</Note>
+				<Note>Code39: Only supports a limited character set; displayed corrupted values for unsupported symbols.</Note>
+				<Note>QR Code: Successfully encoded all input types including very long strings.</Note>
+			</Findings>
+		</Test>
+		
+		<Test>
+			<Type>Length and Scaling</Type>
+			<Findings>
+				<Note>Barcodes rendered correctly from 2–20 characters for all supported types.</Note>
+				<Note>Code39 became unreliable beyond ~30 characters (expected).</Note>
+				<Note>QR Codes properly scanned even with extremely long inputs.</Note>
+				<Note>Very short strings (1 character) were not scannable across formats (minimum practical length is 2 characters)</Note>
+			</Findings>
+		</Test>
+		
+		<Test>
+			<Type>Empty / Null Handling</Type>
+			<Findings>
+				<Note>Empty tags caused failures in Code128, Code39, and QR Code.</Note>
+				<Note>ECLIPSE FORMS will handle emptly tags by not displaying it at all. So we need an additiona conditional check before barcode display.</Note>
+				<Note>Tags containing only whitespace rendered successfully.</Note>
+			</Findings>
+		</Test>
+	</TLDR>
     
 	<LineItems>
 		<LineItem>
@@ -71,7 +100,7 @@
 			<ExtendedDescriptionLines>
 				<ExtendedDescriptionLine>
 					<TNo>1</TNo>
-					<Result>Passed for all</Result>
+					<Result>Broke for Code 39 (expected).</Result>
 				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
