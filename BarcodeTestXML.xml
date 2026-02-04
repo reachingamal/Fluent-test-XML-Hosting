@@ -19,20 +19,12 @@
 			<UPC39>7045</UPC39>
 			<UPCQR>7045</UPCQR>
 			<UPCITF>7045</UPCITF>
-			<UPCA>7045</UPCA>
+			<UPCA>123456789012</UPCA>
 			<UPCE>7045</UPCE>
 			<ExtendedDescriptionLines>
 				<ExtendedDescriptionLine>
 					<TNo>1</TNo>
-					<Result>Yes</Result>
-				</ExtendedDescriptionLine>
-				<ExtendedDescriptionLine>
-					<TNo>2</TNo>
-					<Result>No</Result>
-				</ExtendedDescriptionLine>
-				<ExtendedDescriptionLine>
-					<TNo>3</TNo>
-					<Result>Yes</Result>
+					<Result>UPCA broke: Need chars b/w 12 and 15 (expected</Result>
 				</ExtendedDescriptionLine>
 			</ExtendedDescriptionLines>
 		</LineItem>
@@ -50,18 +42,7 @@
 			<ExtendedDescriptionLines>
 				<ExtendedDescriptionLine>
 					<TNo>1</TNo>
-					<Test>Barcode is visible</Test>
-					<Result>Yes</Result>
-				</ExtendedDescriptionLine>
-				<ExtendedDescriptionLine>
-					<TNo>2</TNo>
-					<Test>Errors</Test>
-					<Result>No</Result>
-				</ExtendedDescriptionLine>
-				<ExtendedDescriptionLine>
-					<TNo>3</TNo>
-					<Test>Value matches source tag</Test>
-					<Result>Yes</Result>
+					<Result>ITF broke: Need to be even (expected)</Result>
 				</ExtendedDescriptionLine>
 			</ExtendedDescriptionLines>
 		</LineItem>
