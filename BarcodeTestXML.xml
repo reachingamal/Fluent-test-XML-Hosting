@@ -11,7 +11,11 @@
 	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
 	<ShortURL>http://www.epicor.com</ShortURL>
 	<VeryLongURL>https://picsum.photos/1200/800.jpg?verylongparameter=thisisaveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongstringusedfortestingpurposeswithoutanyampersandsatalljustonecontinuousqueryvalue</VeryLongURL>
-
+	<GS1Test>0109501101530003</GS1Test>
+	<GS1Test2>(01)09501101530003</GS1Test2>
+	<Variable-Length>(10)ABC123(17)241231</Variable-Length>
+	<Variable-Length>10ABC12317241231</Variable-Length>
+	  
 	<TLDR>
 		<Test>
 			<Type>Character Support</Type>
@@ -411,3 +415,4 @@
 	</LineItems>
   </Order>
 </Orders>
+
