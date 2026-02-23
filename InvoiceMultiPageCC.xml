@@ -1491,6 +1491,8 @@
 					<CSTM_BRANCH_EMAIL>confirmations@SCompanyinhardware.com</CSTM_BRANCH_EMAIL>
 					<CSTM_REMIT_EMAIL>confirmations@SCompanyinhardware.com</CSTM_REMIT_EMAIL>
 					<ED_INVOICE_LOGO>C:\Eclipse_Forms_Logos\EpicorLogo.png</ED_INVOICE_LOGO>
+					<ED_WATERMARK>C:\Eclipse_Forms_Logos\Cloud.png</ED_WATERMARK>
+					<ED_WATERMARK_TSPRNT>C:\Eclipse_Forms_Logos\CloudTprt.png</ED_WATERMARK_TSPRNT>
 					<ED_FORMS_PRT_DOCUMENT_BARCODE>All Forms</ED_FORMS_PRT_DOCUMENT_BARCODE>
 					<ED_PROGRESS_BILLING>0</ED_PROGRESS_BILLING>
 				</LEDGER>
